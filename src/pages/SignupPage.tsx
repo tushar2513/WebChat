@@ -19,7 +19,7 @@ const SignupPage = () => {
     username: "",
   });
 
-  const { isSigningUp, signup } = useAuthStore();
+  const { isSigningUp,  } = useAuthStore();
   const navigate = useNavigate();
 
   const validateForm = () => {
